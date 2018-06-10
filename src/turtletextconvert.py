@@ -2,7 +2,7 @@
 # convert text to turtle drawing
 
 # Get user input
-letterInput = input("Enter a letter: ")
+letterInput = raw_input("Enter a letter: ")
 
 # determine starting distance
 if len(letterInput) > 1:
