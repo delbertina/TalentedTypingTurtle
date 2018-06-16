@@ -26,57 +26,57 @@ turtle.goto(startingDistance, 0)
 
 for i in range(len(letterInput)):
     if letterList[0][i] == 'A':
-        turtleletters.TurtleLetters.a()
+        turtleletters.a()
     if letterList[0][i] == 'B':
-        turtleletters.TurtleLetters.b()
+        turtleletters.b()
     if letterList[0][i] == 'C':
-        turtleletters.TurtleLetters.c()
+        turtleletters.c()
     if letterList[0][i] == 'D':
-        turtleletters.TurtleLetters.d()
+        turtleletters.d()
     if letterList[0][i] == 'E':
-        turtleletters.TurtleLetters.e()
+        turtleletters.e()
     if letterList[0][i] == 'F':
-        turtleletters.TurtleLetters.f()
+        turtleletters.f()
     if letterList[0][i] == 'G':
-        turtleletters.TurtleLetters.g()
+        turtleletters.g()
     if letterList[0][i] == 'H':
-        turtleletters.TurtleLetters.h()
+        turtleletters.h()
     if letterList[0][i] == 'I':
-        turtleletters.TurtleLetters.i()
+        turtleletters.i()
     if letterList[0][i] == 'J':
-        turtleletters.TurtleLetters.j()
+        turtleletters.j()
     if letterList[0][i] == 'K':
-        turtleletters.TurtleLetters.k()
+        turtleletters.k()
     if letterList[0][i] == 'L':
-        turtleletters.TurtleLetters.l()
+        turtleletters.l()
     if letterList[0][i] == 'M':
-        turtleletters.TurtleLetters.m()
+        turtleletters.m()
     if letterList[0][i] == 'N':
-        turtleletters.TurtleLetters.n()
+        turtleletters.n()
     if letterList[0][i] == 'O':
-        turtleletters.TurtleLetters.o()
+        turtleletters.o()
     if letterList[0][i] == 'P':
-        turtleletters.TurtleLetters.p()
+        turtleletters.p()
     if letterList[0][i] == 'Q':
-        turtleletters.TurtleLetters.q()
+        turtleletters.q()
     if letterList[0][i] == 'R':
-        turtleletters.TurtleLetters.r()
+        turtleletters.r()
     if letterList[0][i] == 'S':
-        turtleletters.TurtleLetters.s()
+        turtleletters.s()
     if letterList[0][i] == 'T':
-        turtleletters.TurtleLetters.t()
+        turtleletters.t()
     if letterList[0][i] == 'U':
-        turtleletters.TurtleLetters.u()
+        turtleletters.u()
     if letterList[0][i] == 'V':
-        turtleletters.TurtleLetters.v()
+        turtleletters.v()
     if letterList[0][i] == 'W':
-        turtleletters.TurtleLetters.w()
+        turtleletters.w()
     if letterList[0][i] == 'X':
-        turtleletters.TurtleLetters.x()
+        turtleletters.x()
     if letterList[0][i] == 'Y':
-        turtleletters.TurtleLetters.y()
+        turtleletters.y()
     if letterList[0][i] == 'Z':
-        turtleletters.TurtleLetters.z()
+        turtleletters.z()
     if letterList[0][i] == ' ':
         turtle.forward(50)
 

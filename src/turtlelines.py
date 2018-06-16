@@ -4,39 +4,18 @@
 import turtle
 
 
-class TurtleLines:
-    letter = 'a'
+# basic movements
+def left_move(distance):
+    turtle.left(90)
+    turtle.forward(distance)
 
-    def __init__(self, letter):
-        self.letter = letter
 
-    @staticmethod
-    def left_hundred():
-        turtle.left(90)
-        turtle.forward(100)
+def right_move(distance):
+    turtle.right(90)
+    turtle.forward(distance)
 
-    @staticmethod
-    def right_hundred():
-        turtle.right(90)
-        turtle.forward(100)
 
-    @staticmethod
-    def left_fifty():
-        turtle.left(90)
-        turtle.forward(50)
-
-    @staticmethod
-    def right_fifty():
-        turtle.right(90)
-        turtle.forward(50)
-
-    @staticmethod
-    def back_hundred():
-        turtle.right(180)
-        turtle.forward(100)
-
-    @staticmethod
-    def back_fifty():
-        turtle.right(180)
-        turtle.forward(50)
+def back_move(distance):
+    turtle.right(180)
+    turtle.forward(distance)
 
