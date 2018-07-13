@@ -98,7 +98,7 @@ def draw_text(letter_input, starting_distance):
 
 
 # Get user input
-letterInput = raw_input("Enter a letter: ")
+letterInput = raw_input("Enter text to draw: ")
 
 print str(turtle.window_width())
 
