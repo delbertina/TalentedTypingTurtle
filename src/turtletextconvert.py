@@ -11,10 +11,10 @@ def calc_start(letter_input):
         letters = len(letter_input)
         starting_distance = -1 * (((gaps + letters) * 50) / 2)
         if abs(starting_distance) > (turtle.window_width() / 2):
-            starting_distance = 0 - ((turtle.window_width / 2) - 25)
+            starting_distance = 0 - ((turtle.window_width() / 2) - 25)
     else:
         starting_distance = -25
-    print "Starting distance: " + str(starting_distance)
+    print("Starting distance: " + str(starting_distance))
     return starting_distance
 
 
@@ -22,7 +22,7 @@ def text_wrap_draw(letter_input):
     starting_distance = -25
 
 # if can fit on one line
-    if len(letter_input) > 1 & (((len(letter_input) - 1) * 25) > (turtle.window_width / 2)):
+    if len(letter_input) > 1 & (((len(letter_input) - 1) * 25) > (turtle.window_width() / 2)):
         starting_distance = -1 * ((len(letter_input) - 1) * 25)
 # if cannot fit on one line
     else:
@@ -97,9 +97,9 @@ def draw_text(letter_input, starting_distance):
 
 
 # Get user input
-letterInput = raw_input("Enter text to draw: ")
+letterInput = input("Enter text to draw: ")
 
-print str(turtle.window_width())
+print(str(turtle.window_width()))
 
 # determine starting distance
 startingDistance = calc_start(letterInput)
